@@ -1,0 +1,65 @@
+* { /* global */
+  font-family: 'Arial';
+}
+
+nav, ul, ul li{  /* element selector */
+  display: inline;
+}
+
+#mainHeading{  /* id selector */
+  font-size: 42px;
+  color: aqua;
+}
+
+footer{ /* element selector */
+  text-align: center;
+  clear: left;
+}
+
+[type='submit']{ /* attribute selector */
+  background-color: crimson;
+  border-radius: 10px;
+  font-size: 20px;
+  border: 10px solid black;
+  padding: 16px 56px;
+  margin: 10px;
+  margin-left: 110px;
+}
+
+/* TODO: learn about pseudo selectors */
+
+/* form styles */
+input, textarea{
+  border: solid 1px grey;
+  font-size: 14px;
+  padding: 10px;
+  width: 260px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+
+textarea{
+  margin-top: 0px;
+}
+
+.queryLabel{
+  vertical-align: top;
+}
+
+label{
+  width: 105px;
+  display: inline-block;
+}
+
+/* left side box */
+.contactForm{
+  float: left;
+  width: 50%;
+  padding: 20px;
+}
+
+/* right side box */
+.capitaMap{
+  float: left;
+  padding: 20px;
+} 
