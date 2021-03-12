@@ -1,6 +1,12 @@
-* { /* global */
-  font-family: 'Arial';
+@font-face {
+  font-family: "Open Sans";
+  src: url("../fonts/OpenSans-Regular.ttf") format("truetype");
 }
+
+* { /* global */
+  font-family: 'Open Sans';
+}
+
 
 nav, ul, ul li{  /* element selector */
   display: inline;
@@ -8,12 +14,11 @@ nav, ul, ul li{  /* element selector */
 
 #mainHeading{  /* id selector */
   font-size: 42px;
-  color: aqua;
 }
 
 footer{ /* element selector */
   text-align: center;
-  clear: left;
+  clear: both;
 }
 
 [type='submit']{ /* attribute selector */
@@ -63,3 +68,11 @@ label{
   float: left;
   padding: 20px;
 } 
+
+.hidden{
+  display: none;
+}
+
+.show{
+  display: block;
+}

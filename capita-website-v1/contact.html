@@ -28,18 +28,20 @@
   <main>
     <section class="contactForm">
       <h1 id="mainHeading">Contact Us</h1>
-      <form>
+      <form onsubmit="handleQuerySubmit(event)">
         <label>Enter Name:</label>
-        <input type="text" placeholder="Enter your name" required>
+        <input type="text" value="arun" placeholder="Enter your name" id="personNameInput">
         <br>
 
         <label>Enter Email:</label>
-        <input type="email" placeholder="Enter your Email" required>
+        <input type="email" value="a@b.com" placeholder="Enter your Email" id="emailInput">
         <br>
 
         <label class="queryLabel">Enter Query:</label>
-        <textarea placeholder="Enter your query" required></textarea>
+        <textarea placeholder="Enter your query" id="queryInput">test 123</textarea>
         <br>
+        
+        <div class="hidden">Saved Successfully!</div>
 
         <button type="submit">Submit Query</button>
       </form>
@@ -58,6 +60,8 @@
     <hr>
     <p>Copyright 2021 - Arun</p>
   </footer>
+
+  <script src="./assets/scripts/main.js"></script>
 
 </body>
 
