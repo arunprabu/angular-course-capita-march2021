@@ -8,7 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutComponent implements OnInit {
 
-  constructor() { }
+  today: Date;
+  randomText = 'Any browser, any OS, anywhere JavaScript runs. Entirely Open Source';
+
+  constructor() {
+    this.today = new Date();
+  }
 
   ngOnInit(): void {
   }

@@ -29,6 +29,7 @@ export class AddContactComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  // Step 8 of Form Submission
   handleAddContact(): void {
     // console.log(this.addContactForm);  // entire state of the form
     console.log(this.addContactForm.value);

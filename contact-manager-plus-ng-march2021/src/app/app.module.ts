@@ -17,6 +17,8 @@ import { CebComponent } from './concepts/components/ceb/ceb.component';
 import { ColorizerDirective } from './concepts/directives/colorizer.directive';
 import { AddContactComponent } from './contacts/components/add-contact/add-contact.component';
 import { ContactDetailsComponent } from './contacts/components/contact-details/contact-details.component';
+import { EllipsisPipe } from './shared/pipes/ellipsis.pipe';
+import { PageNotFoundComponent } from './shared/components/page-not-found/page-not-found.component';
 
 // Main Switching box
 @NgModule({
@@ -33,7 +35,9 @@ import { ContactDetailsComponent } from './contacts/components/contact-details/c
     CebComponent,
     ColorizerDirective,
     AddContactComponent,
-    ContactDetailsComponent
+    ContactDetailsComponent,
+    EllipsisPipe,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
